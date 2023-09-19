@@ -1,0 +1,74 @@
+#ClockContainer {
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    height: 440px;
+    width: 440px;
+    background: url(WhatsApp\ Image\ 2023-08-16\ at\ 21.47.07.jpg) no-repeat;
+    background-size: 100%;
+    
+}
+/* h1::selection{
+    color: black;
+    background-color: yellow;
+} */
+
+/* h1{
+    background-color: red;
+    font-size: 50px;
+} */
+
+#hour,
+#minute,
+#second,
+#circle,
+#quote {
+    position: absolute;
+    /* background: black; */
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour {
+    height: 30%;
+    width: 2.5%;
+    top: 96px;
+    left: 48.1%;
+    background-color: green;
+}
+
+#minute {
+    height: 34%;
+    width: 2.1%;
+    top: 70px;
+    left: 48.1%;
+    background-color: rgb(152, 152, 152)
+
+}
+
+#second {
+    height: 36%;
+    width: 1.5%;
+    top: 64px;
+    left: 48.5%;
+    background-color: orange;
+}
+
+
+#circle {
+ 
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    top: 47%;
+    left: 46%;
+    background-color: navy;
+}
+
+#quote{
+    top: 15%;
+    left: 40%;
+    opacity: 0.2;
+}
+   
